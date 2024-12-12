@@ -1,1 +1,62 @@
+/* Définition du style global */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Style de l'en-tête */
+header {
+    background-color: #0033a0;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Conteneur principal */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Titre des sections */
+h2 {
+    color: #0033a0;
+}
+
+/* Espacement entre les sections */
+.section {
+    margin-bottom: 20px;
+}
+
+/* Liste des centres d'intérêt */
+.list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list li {
+    margin: 5px 0;
+}
+
+/* Style du pied de page */
+footer {
+    background-color: #0033a0;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
 
